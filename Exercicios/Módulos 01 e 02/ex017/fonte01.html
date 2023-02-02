@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+            (in= polegada)(pc= paica)
+            Não é recomendavel utilizar: pt e pc
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+
+            /*Weight = Peso
+              Width = Largura
+              Height = Altura*/
+            /* Tamanhos padrões das fontes:
+               lighter, normal, bold e bolder*/
+        }
+
+        h1 {
+            /*font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            /* shorthand font
+            - Ordem de Atribuições: 1 - font-style 2 - font-weight 3 - font-size 4 - font-family */
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+
+        h2 {
+            font: bolder 2em 'work sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos suscipit porro nisi doloribus maxime eligendi, odit debitis velit quas. Ut similique obcaecati cum ex provident porro, accusantium cupiditate laborum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio mollitia ea ex necessitatibus quasi corrupti temporibus eaque eveniet ipsam. Voluptate itaque dolores iure ea nostrum ullam cum sequi commodi assumenda.</p>
+    <h2>Subtítulo do Exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur vel temporibus praesentium laborum facilis provident sunt, corporis, minima natus cupiditate ut. Quaerat aliquam itaque laborum a eos doloribus earum at?</p>
+</body>
+</html>

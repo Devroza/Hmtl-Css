@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+        #  = id
+        .  = class
+        :  = pseudo class
+        :: = pseudo element
+        >  = children(filho(a))
+        */
+        body{
+            font-family: Arial, sans-serif;
+        }
+
+        a{
+            color: rgb(18, 148, 148);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 26px;
+        }
+
+        a:visited{
+            color: darkblue;
+        }
+
+        a:hover {
+            color: chartreuse;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: rgb(12, 143, 12);
+        }
+        .especial{
+            background-color: aquamarine;
+        }
+        .especial::before{
+            content: '☞ ';
+        }
+
+        .especial::after{
+            content: ' ☜';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.kabum.com.br/" target="_blank">Kabum</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">Youtube</a></li>
+        <li><a href="https://www.google.com.br/" target="_blank" class="especial">Google</a></li>
+    </ul>
+    
+</body>
+</html>

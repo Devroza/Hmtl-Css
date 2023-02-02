@@ -1,0 +1,3 @@
+Exercicios Referentes a cada tipo de estudo:
+* ex003 - ex008b = Explicam sobre citações <blockquote>, abreviações <abbr> e texto inverso <bdo>.
+* ex016 = Explica sobre bordar, cores e sombreados.
