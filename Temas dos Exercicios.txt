@@ -1,6 +1,6 @@
 Exercicios Referentes a cada tipo de estudo:
 * ex003 - ex008b = Explicam sobre citações <blockquote>, abreviações <abbr> e texto inverso <bdo>;
-* ex004 = explica sobre favicon e como adicionar ao site;
+* ex004 = Explica sobre favicon e como adicionar ao site;
 * ex016 = Explica sobre bordar, cores e sombreados;
-* ex020 = fala sobre a pseudo classe :hover e sobre display.
+* ex020 = Fala sobre a pseudo classe :hover e sobre display.
 * ex022 = Uso e aplicação de imagens de fundo.
