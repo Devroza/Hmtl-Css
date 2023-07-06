@@ -2,7 +2,13 @@
 
 /* todas as demais medias */
 
-/* Typical Divice Breakpoints:
+/* Typical Divice Breakpoints:(Significado: Tipicos Pontos de Quebra para dispositivos)
+Explicação: Basicamente Typical Divice Breakpoints é:
+* Typical: Tipico, ou seja, o que é de costume ou simbólico.
+* Divice Breakpoints: são os pontos (em pixels) que mostram quando a visualização mudará de dispositivo em uma tela, ou sejá, são os pontos de transição em pixels. Exemplo:
+A tela terá até 992px em visualização de tablet, após este ponto, ela mudará para a visualização de Desktop (que é apartir de 993px).
+
+*Typical Divice Breakpoints: São os pontos de quebra de imagem (definido em quantidade de pixels) que tipicamente os desenvolvedores utilizam para realizar a transição de @media em uma tela.
 -----------------------------------------------------------------
 Segundo Informações de Guanabara (Iguais as Informações da WC3):
 Pequenas Telas: até 600px
