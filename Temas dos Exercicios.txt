@@ -4,3 +4,4 @@ Exercicios Referentes a cada tipo de estudo:
 * ex016 = Explica sobre bordar, cores e sombreados;
 * ex020 = Fala sobre a pseudo classe :hover e sobre display.
 * ex022 = Uso e aplicação de imagens de fundo.
+* ex026 = fala sobre media query
